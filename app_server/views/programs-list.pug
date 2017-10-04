@@ -1,0 +1,27 @@
+extends layout
+include _includes/sharedHTMLfunctions
+
+block content
+  #banner.page-header
+    h2="Welcome to the workout SPA!"
+  .row  
+    .col-xs-12.col-sm-8
+      .error= message
+      my-app program list will be here
+      //-.row.list-group
+        //--each program in programs
+        //-- .col-xs-12.list-group-item
+        //--    h4 
+        //--      a(href="/programs/" + program._id)= program.name
+        //--      small &nbsp;
+       //--         +outputDifficulty(program.difficulty)
+       //--       span.badge.pull-right.badge-default difficulty: #{program.difficulty}
+       //--     p.author= program.author
+          
+    
+block scripts
+  script(src='/dist/inline.bundle.js')
+  script(src='/dist/polyfills.bundle.js')
+  script(src='/dist/vendor.bundle.js')  
+  script(src='/dist/styles.bundle.js')
+  script(src='/dist/main.bundle.js')

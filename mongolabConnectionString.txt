@@ -1,0 +1,3 @@
+connection string (masterworkouter)
+mongodb://test:test@ds129342.mlab.com:29342/workout2
+

@@ -1,0 +1,4 @@
+no update for exercise (page 196 MEAN)
+no delete for exercise nor program (not in requirements)
+
+function getProgramInfo and _showError is doubled (programs and exercises)
